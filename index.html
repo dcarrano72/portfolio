@@ -16,7 +16,7 @@
     <style>
         body {
             font-family: 'Open Sans', sans-serif;
-            background-color: rgb(40, 51, 80);
+            background-color: rgb(45, 57, 137);
             color: rgb(197, 189, 182);
             padding: 40px;
         }
@@ -58,10 +58,19 @@
 <body>
 
     <header>
-        <h1>David Carrano</h1>
+        <nav>
+            <div class="nav-wrapper indigo darken-2">
+                <a href="/" class="brand-logo">David Carrano</a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a href="#aboutme">About me</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contactme">Contact me</a></li>
+                </ul>
+            </div>
+        </nav>
     </header>
     <main>
-        <section>
+        <section id="aboutme">
             <h2>About me</h2>
             <p>My name is David Carrano. I am a full stack web developer and software engineering student.</p>
 
@@ -69,8 +78,8 @@
 
         <hr>
 
-        <section>
-            <h2>My Projects</h2>
+        <section id="portfolio">
+            <h2>Portfolio</h2>
 
             <div class="project1">
                 <a href="https://dcarrano72.github.io/Holidays/"><img class="project-img"
@@ -102,7 +111,9 @@
             <hr>
         </section>
 
-        <section>
+        <section id="contactme">
+
+            <h2>Contact me</h2>
             <a
                 href="https://docs.google.com/document/d/e/2PACX-1vT3Re6733NtpFGEiYMHypxtvTK2DkJh83WHIXXjyRGLbOO-4Afm50D_K0_4OmZtSiDNlR8Q6hZJXzVV/pub">This
                 is a link to my resume</a>
