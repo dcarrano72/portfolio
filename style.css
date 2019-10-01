@@ -1,0 +1,46 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgb(45, 57, 137);
+    color: rgb(168, 180, 191);
+    padding: 40px;
+}
+
+a {
+    color: rgb(95, 150, 201);
+}
+
+.me {
+    border-radius: 50%;
+}
+
+nav .brand-logo {
+    padding-left: 20px;
+}
+
+section {
+    width: 90%;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 40px;
+}
+
+.project-img {
+    width: 600px;
+    height: 400px;
+    margin: auto;
+    background-color: gray;
+    border: solid 4px rgb(39, 51, 126);
+}
+
+.project1 {
+    padding: 40px;
+}
+
+.project2 {
+    padding: 40px;
+}
+
+.project3 {
+    padding: 40px;
+}
