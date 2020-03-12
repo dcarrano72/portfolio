@@ -1,6 +1,6 @@
 body {
     font-family: 'Open Sans', sans-serif;
-    background-color: rgb(45, 57, 137);
+    background-color: #8d6e63;
     color: rgb(168, 180, 191);
     padding: 40px;
 }
@@ -43,4 +43,8 @@ section {
 
 .project3 {
     padding: 40px;
+}
+
+.darkbrown {
+    background-color: rgb(102, 91, 70);
 }
