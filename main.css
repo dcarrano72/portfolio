@@ -11,6 +11,8 @@ a {
 
 .me {
     border-radius: 50%;
+    width: 200px;
+    height: 200px;
 }
 
 nav .brand-logo {
